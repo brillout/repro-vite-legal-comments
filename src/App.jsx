@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+/* Some normal comment */
+/*! Some legal comment */
+console.log("both comments above are removed in dist/ but the legal comment shoulnd't removed")
+
 function App() {
   const [count, setCount] = useState(0)
 
